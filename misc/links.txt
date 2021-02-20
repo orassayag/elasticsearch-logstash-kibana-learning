@@ -1,0 +1,3 @@
+https://www.udemy.com/elasticsearch-6-and-elastic-stack-in-depth-and-hands-on/
+https://github.com/Einsteinish/docker-elk
+https://github.com/Seqi/node-elk

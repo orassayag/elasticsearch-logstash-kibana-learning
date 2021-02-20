@@ -1,0 +1,11 @@
+{
+  "name": "elasticsearch-logstash-kibana-learning",
+  "version": "1.0.0",
+  "description": "Old stuff to help learning ELK in the futrue with some examples from other GitHub projects and some useful links.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
