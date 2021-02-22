@@ -1,5 +1,6 @@
-# Project
-Stuff to help learning ELK in the future with some examples from other GitHub projects and some useful links.
+# Elasticsearch, LogStash, Kibana Learning
+
+Stuff to help learning Elasticsearch, LogStash, Kibana, in the future with some examples from other GitHub projects and some useful links.
 
 ## Author
 
@@ -10,4 +11,5 @@ Stuff to help learning ELK in the future with some examples from other GitHub pr
 * LinkedIn: https://il.linkedin.com/in/orassayag
 
 ## License
+
 This application has UNLICENSED License.
