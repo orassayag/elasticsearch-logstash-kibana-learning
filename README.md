@@ -1,6 +1,6 @@
 # Elasticsearch, LogStash, Kibana Learning
 
-Stuff to help learning Elasticsearch, LogStash, Kibana, in the future with some examples from other GitHub projects and some useful links.
+Built in April 2019. Stuff to help learning Elasticsearch, LogStash, Kibana, in the future with some examples from other GitHub projects and some useful links.
 
 ## Author
 
