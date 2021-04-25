@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "private": false,
   "description": "Old stuff to help learning ELK in the future with some examples from other GitHub projects and some useful links.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/orassayag/elasticsearch-logstash-kibana-learning.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
