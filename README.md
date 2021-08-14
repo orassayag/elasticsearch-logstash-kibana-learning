@@ -12,4 +12,4 @@ Built in April 2019. Stuff to help learning Elasticsearch, LogStash, Kibana, in 
 
 ## License
 
-This application has an UNLICENSED License.
+This application has an UNLICENSED license.
