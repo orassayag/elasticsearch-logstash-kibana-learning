@@ -2,16 +2,34 @@
   "name": "elasticsearch-logstash-kibana-learning",
   "version": "1.0.0",
   "private": false,
-  "description": "Old stuff to help learning ELK in the future with some examples from other GitHub projects and some useful links.",
+  "description": "A curated collection of resources, examples, and projects to help learn and master the ELK Stack (Elasticsearch, Logstash, Kibana) with Docker-based setups and Node.js integration examples.",
   "repository": {
     "type": "git",
     "url": "git://github.com/orassayag/elasticsearch-logstash-kibana-learning.git"
   },
+  "keywords": [
+    "elasticsearch",
+    "logstash",
+    "kibana",
+    "elk-stack",
+    "elastic-stack",
+    "docker",
+    "docker-compose",
+    "logging",
+    "log-management",
+    "analytics",
+    "search",
+    "visualization",
+    "nodejs",
+    "learning",
+    "tutorial",
+    "examples"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "author": "Or Assayag <orassayag@gmail.com>",
   "contributors": [
     {
