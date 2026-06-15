@@ -9,12 +9,14 @@ Everyone is welcome to contribute to this project. Contributing doesn't just mea
 ### Reporting Issues
 
 If you find a bug or have a feature request:
+
 1. Check if the issue already exists in the [GitHub Issues](https://github.com/orassayag/elasticsearch-logstash-kibana-learning/issues)
 2. If not, create a new issue with:
    - Clear title and description
    - Steps to reproduce (for bugs)
    - Expected vs actual behavior
-   - Your environment details (OS, Docker version, Node version)
+   - Error codes (if applicable)
+   - Your environment details (OS, Node version)
 
 ### Submitting Pull Requests
 
@@ -23,36 +25,63 @@ If you find a bug or have a feature request:
    ```bash
    git checkout -b feature/your-feature-name
    ```
-3. Make your changes following the guidelines below
+3. Make your changes following the code style guidelines below
 4. Test your changes thoroughly
 5. Commit with clear, descriptive messages
 6. Push to your fork and submit a pull request
 
-### Adding New Resources
+### Code Style Guidelines
 
-When adding new learning resources:
-1. Ensure the resource is relevant to the ELK Stack (Elasticsearch, Logstash, Kibana)
-2. Test any code examples before submitting
-3. Add proper documentation explaining the purpose and usage
-4. Update the `misc/documents/links.txt` file if adding new links
-5. Include README files for any new example projects
+This project uses:
 
-### Code Examples Guidelines
+- **TypeScript** with strict type checking
+- **ESLint** for code quality
+- **Prettier** for code formatting
+- **InversifyJS** for dependency injection
 
-If contributing code examples:
-1. Ensure Docker Compose configurations are tested and working
-2. Include clear setup instructions
-3. Document any environment variables or configuration requirements
-4. Follow Docker best practices
-5. Test with recent versions of the ELK Stack
+Before submitting:
+
+```bash
+pnpm format
+pnpm lint
+pnpm build
+pnpm test
+```
+
+### Coding Standards
+
+1. **Dependency Injection**: Use @injectable decorators for services
+2. **Error handling**: All errors must include unique error codes (see `misc/error_index.txt`)
+3. **Logging**: Use structured Logger instead of console.log
+4. **Type safety**: Avoid using `any` - define proper types
+5. **Domain organization**: Place code in appropriate domain folders (not utils/)
+6. **Naming**: Use clear, descriptive names for variables and functions
+
+### Adding New Features
+
+When adding new features:
+
+1. Create appropriate types in `src/types/`
+2. Add service logic in `src/services/` with DI
+3. Update scripts in `src/scripts/` if needed
+4. Add error codes and update `misc/error_index.txt`
+5. Test thoroughly with vitest
+
+### Error Code Management
+
+When adding new errors:
+
+1. Use the next available error code from `misc/error_index.txt`
+2. Format: `[ERROR-XXXXXXX]` at the start of the error message
+3. Document the error in `misc/error_index.txt`
 
 ## Questions or Need Help?
 
 Please feel free to contact me with any question, comment, pull-request, issue, or any other thing you have in mind.
 
-* Or Assayag <orassayag@gmail.com>
-* GitHub: https://github.com/orassayag
-* StackOverflow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
-* LinkedIn: https://linkedin.com/in/orassayag
+- Or Assayag <orassayag@gmail.com>
+- GitHub: https://github.com/orassayag
+- StackOverflow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
+- LinkedIn: https://linkedin.com/in/orassayag
 
 Thank you for contributing! 🙏
